@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="7.2.15" name="Excel" packageVersion="1.0.0" vendor="">
+            <JarResources>
+                <FileResource description="" file="excel.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <ThingPackages>
+        <ThingPackage className="com.thingworx.practise.Excel_e" description="" name="Excel_ePackage"/>
+    </ThingPackages>
+    <ThingTemplates>
+        <ThingTemplate aspect.isEditableExtensionObject="false" description="" name="Excel_e" thingPackage="Excel_ePackage"/>
+    </ThingTemplates>
+</Entities>
